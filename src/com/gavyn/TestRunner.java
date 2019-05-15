@@ -17,5 +17,11 @@ public class TestRunner {
         for (Failure failure : testResults.getFailures()) {
             System.out.println(failure.toString());
         }
+
+        testResults = JUnitCore.runClasses(GetParamsTest.class);
+
+        for (Failure failure : testResults.getFailures()) {
+            System.out.println(failure.toString());
+        }
     }
 }

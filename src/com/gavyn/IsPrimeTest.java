@@ -48,7 +48,10 @@ public class IsPrimeTest {
                 {20, false},
                 {7902, false},
                 {7908, false},
-                {7920, false}
+                {7920, false},
+                {-1, false},
+                {0, false},
+                {1, false}
         });
     }
 
